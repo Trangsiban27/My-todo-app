@@ -94,6 +94,12 @@ li.completed span {
     color: #999;
 }
 
+li span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 70%;
+}
+
 li:last-child {
     border: none;
 }
