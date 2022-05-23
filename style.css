@@ -103,3 +103,24 @@ li span {
 li:last-child {
     border: none;
 }
+
+@media screen and (max-width: 676px) {
+    .todo-app {
+        max-width: 80%;
+    }
+
+    .todo-head {
+        flex-direction: column;
+    }
+
+    .input {
+        width: 90%;
+        height: 60px;
+    }
+
+    .add-btn {
+        width: 90%;
+        height: 60px;
+        margin-top: 30px;
+    }
+}
